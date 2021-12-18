@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "paths": {
+      "@aws-sdk/*": [
+        "./node_modules/@aws-sdk/*/dist-es",
+        "./node_modules/@aws-sdk/*"
+      ]
+    }
+  }
+}
